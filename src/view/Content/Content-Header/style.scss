@@ -1,0 +1,118 @@
+  .content-top-header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .title {
+      font-size: 40px;
+      margin-left: 25px;
+      position: relative;
+      white-space: nowrap;
+      color: rgb(8, 15, 112);
+    }
+    .help {
+      height: 18px;
+      font-size: 0.9em;
+      margin-top: 60px;
+      margin-right: 30px;
+      span {
+        font-weight: bold;
+      }
+      input {
+        width: 100px;
+        font-size: 0.8em;
+        margin-left: 10px;
+        border: 1px #ccc solid;
+      }
+      button {
+        outline: none;
+        cursor: pointer;
+        margin-left: 5px;
+        font-size: 0.8em;
+        border-radius: 5px;
+        &:active {
+          background-color: rgba(14, 115, 247, 0.863);
+        }
+      }
+    }
+    &::after {
+      content: "";
+      width: 95%;
+      height: 2px;
+      margin: -20px auto 0;
+      background: rgb(38, 3, 94);
+    }
+  }
+
+  .menu {
+    width: 100%;
+    position: relative;
+    padding-right: 50px;
+    &-ul {
+      padding: 0;
+      margin: 0;
+      height: 60px;
+      font-size: 20px;
+      display: flex;
+      justify-content: space-around;
+      .menu-li {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        white-space: nowrap;
+        list-style: none;
+        overflow: hidden;
+        a {
+          width: 100%;
+          color: #333;
+          line-height: 60px;
+          display: inline-block;
+          text-decoration: none;
+        }
+        &:hover a{
+          color: #004080;
+        }
+      }
+    }
+    &-ul:hover+.tab {
+      display: block;
+    }
+    .tab:hover {
+      display: block;
+    }
+    .tab {
+      display: none;
+      width: 99%;
+      position: absolute;
+      top: 80%;
+      z-index: 666;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      &-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding-right: 20%;
+        &-ul {
+          flex: 1;
+          padding: 10px;
+          ul {
+            text-align: left;
+            padding-right: 10%;
+            position: relative;
+            border-right: 1px dotted rgba(198, 198, 198, 0.8);
+            a {
+              color: #666;
+              font-size: 13px;
+              line-height: 20px;
+              text-decoration: none;
+              &:hover {
+                color: #004080;
+              }
+            }
+          }
+        }
+      }
+    }
+  }

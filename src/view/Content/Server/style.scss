@@ -1,0 +1,55 @@
+.sertitle {
+  font-size: 20px;
+  width: 100%;
+  font-family: "微软雅黑", sans-serif;
+  text-align: start;
+  margin: 0;
+  padding: 10px 40px;
+  border-bottom: 1px solid #ccc;
+}
+.serbody {
+  width: 100%;
+  display: flex;
+  .serpackage {
+    flex: 1;
+    border-right: 1px solid #ccc;
+    li {
+      list-style: none;
+      border-radius: 2px;
+      border: 1px solid #666;
+      width: 60%;
+      height: 50px;
+      font-size: 20px;
+      line-height: 50px;
+      margin: 15px auto;
+      box-sizing: border-box;
+      a{
+          text-decoration: none;
+          color: #666;
+          &:hover{
+              color:#333;
+          }
+        }
+        &:hover{
+            border:1px solid #333;
+        }
+    }
+  }
+  .sercontent {
+    flex: 3;
+    .head {
+      width: 80%;
+      margin: 0 auto;
+    }
+    .content {
+      display: flex;
+      justify-content: space-between;
+      .more a{
+        right: -30px;
+      }
+      ul{
+        margin-bottom: 0;
+      }
+    }
+  }
+}
