@@ -1,0 +1,36 @@
+.header {
+  width: 60%;
+  color: #666;
+  font-size: 14px;
+  position: relative;
+  margin: 10px auto 0;
+  display: flex;
+  justify-content: space-between;
+  .lang {
+    a {
+      color: #666;
+      margin-left: 5px;
+      &:hover {
+        color: #333;
+      }
+    }
+  }
+
+  .login {
+    input[type="text"],
+    input[type="password"] {
+      width: 100px;
+      margin-left: 10px;
+    }
+    input[type="button"] {
+      outline: none;
+      cursor: pointer;
+      margin-left: 8px;
+      font-size: 0.8em;
+      border-radius: 5px;
+      &:active {
+        background-color: rgba(14, 115, 247, 0.863);
+      }
+    }
+  }
+}
