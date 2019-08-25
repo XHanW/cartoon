@@ -1,0 +1,15 @@
+  .arrows {
+    user-select: none;
+    height: 40px;
+    font-size: 30px;
+    cursor: pointer;
+    margin-top: 30px;
+    padding: 0 3px;
+    line-height: 40px;
+    display: inline-block;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    &:hover {
+      background: #bebcbc;
+    }
+  }
