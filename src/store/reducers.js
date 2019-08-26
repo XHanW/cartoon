@@ -1,5 +1,5 @@
 import { combineReducers } from "redux";
-const initialState = { showNews: '公告', showServer: '头像', showImges: 'active0', showIds: '0', showImg: 'active4', showId:'4' }
+const initialState = { showNews: '公告', showServer: '头像', showImges: 'active0', showIds: '0', showImg: 'active4', showId:'2' }
 const show = (state = initialState, action) => {
     switch (action.type) {
         case 'SHOW_NEWS':
