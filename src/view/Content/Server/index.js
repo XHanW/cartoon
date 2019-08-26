@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { showImg } from 'redux/actions';
+import { showImg } from 'store/actions';
 import Card from 'component/Card/index';
 import Title from 'component/TitleContent/Title';
 import TitleContent from 'component/TitleContent/TitleContent';

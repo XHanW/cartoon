@@ -1,6 +1,6 @@
 import React from "react";
 import { connect } from 'react-redux';
-import { showImges } from 'redux/actions';
+import { showImges } from 'store/actions';
 
 import Card from 'component/Card/index';
 import Img from "component/Img";

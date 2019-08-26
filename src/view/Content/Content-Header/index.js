@@ -1,6 +1,6 @@
 import React from "react";
 import { connect } from 'react-redux';
-import { showTab } from 'redux/actions';
+import { showTab } from 'store/actions';
 import Card from 'component/Card/index';
 import ListContent from "component/ListContent";
 

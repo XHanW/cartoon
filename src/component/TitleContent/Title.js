@@ -1,6 +1,6 @@
 import React from "react";
 import { connect } from 'react-redux';
-import { showNews, showServer } from '../../redux/actions';
+import { showNews, showServer } from 'store/actions';
 
 import './style.scss'
 

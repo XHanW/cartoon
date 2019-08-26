@@ -10,10 +10,10 @@ function App() {
   return (
     <React.Fragment>
       <Header />
-      <Content />
-      <Footer />
       <Leftside />
       <Rightside />
+      <Content />
+      <Footer />
     </React.Fragment>
   );
 }
