@@ -15,7 +15,7 @@ class SliderInfo extends React.Component {
   }
   componentDidMount() {
     this.timer = setInterval(() => this.props.dispatch(showImges(`${++this.state.id}`)
-    ), 2500)
+    ), 4000)
   }
   componentWillUnmount() {
     this.timer && clearInterval(this.timer)
