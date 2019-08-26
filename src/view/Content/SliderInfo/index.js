@@ -31,7 +31,9 @@ class SliderInfo extends React.Component {
     return (
       <Card>
         <span className="slider-img">
-          {imgs.map((p, i) => <Img id={i} active={this.props.active} key={i} src={p} alt={p} />)}
+          <div className="imgbox">
+            {imgs.map((p, i) => <Img id={i} active={this.props.active} key={i} src={p} alt={p} />)}
+          </div>
           <div className="log-reg"><a>点击登陆</a></div>
           <div style={{ top: '22%' }} className="log-reg"><a>点击注册</a></div>
         </span>
