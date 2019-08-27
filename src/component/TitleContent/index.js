@@ -1,8 +1,8 @@
 import React from "react";
 import { connect } from 'react-redux';
 import Img from '../Img';
-import Arrows from '../Arrows/index';
-import More from '../More/index';
+import Arrows from '../Arrows';
+import More from '../More';
 import ListContent from '../ListContent';
 
 import './style.scss'
