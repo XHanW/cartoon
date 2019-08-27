@@ -1,7 +1,7 @@
 import React from "react";
-import Card from 'component/Card/index';
-import TitleContent from 'component/TitleContent/TitleContent';
-import More from 'component/More/index';
+import Card from '../../../component/Card/index';
+import TitleContent from '../../../component/TitleContent/TitleContent';
+import More from '../../../component/More/index';
 import "./style.scss";
 
 const hot = {

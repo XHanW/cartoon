@@ -1,12 +1,12 @@
 import React from "react";
 import { connect } from 'react-redux';
-import { showImges } from 'store/actions';
+import { showImges } from '../../../store/actions';
 
-import Card from 'component/Card/index';
-import Img from "component/Img";
+import Card from '../../../component/Card/index';
+import Img from "../../../component/Img";
 import SliderNav from './SliderNav';
 
-import { contents, imgs } from "component/data";
+import { contents, imgs } from "../../../component/data";
 import "./style.scss";
 
 class SliderInfo extends React.Component {

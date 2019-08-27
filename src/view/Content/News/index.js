@@ -1,21 +1,21 @@
 import React from 'react';
-import Card from 'component/Card/index';
-import Title from 'component/TitleContent/Title';
-import Arrows from 'component/Arrows/index';
-import TitleContent from 'component/TitleContent/TitleContent';
+import Card from '../../../component/Card/index';
+import Title from '../../../component/TitleContent/Title';
+import Arrows from '../../../component/Arrows/index';
+import TitleContent from '../../../component/TitleContent/TitleContent';
 
-import sc1 from 'static/sc1.jpg';
-import sc2 from 'static/sc2.jpg';
-import sc3 from 'static/sc3.jpg';
-import sc4 from 'static/sc4.jpg';
-import sc5 from 'static/sc5.jpg';
-import sc6 from 'static/sc6.jpg';
-import sc7 from 'static/sc7.jpg';
-import sc8 from 'static/sc8.jpg';
-import sc9 from 'static/sc9.jpg';
-import sc10 from 'static/sc10.jpg';
+import sc1 from '../../../static/sc1.jpg';
+import sc2 from '../../../static/sc2.jpg';
+import sc3 from '../../../static/sc3.jpg';
+import sc4 from '../../../static/sc4.jpg';
+import sc5 from '../../../static/sc5.jpg';
+import sc6 from '../../../static/sc6.jpg';
+import sc7 from '../../../static/sc7.jpg';
+import sc8 from '../../../static/sc8.jpg';
+import sc9 from '../../../static/sc9.jpg';
+import sc10 from '../../../static/sc10.jpg';
 
-import { title } from 'component/data';
+import { title } from '../../../component/data';
 import './style.scss';
 
 const text = [
