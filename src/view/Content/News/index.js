@@ -4,7 +4,7 @@ import Title from '../../../component/Title';
 import Arrows from '../../../component/Arrows';
 import TitleContent from '../../../component/TitleContent';
 import imgUrl from '../../../static/product.json';
-// import sc8 from '../../../static/sc8.jpg';
+import sc8 from '../../../static/sc8.jpg';
 import { title } from '../../../component/data';
 import './style.scss';
 
@@ -28,7 +28,7 @@ const sliderimg = [
     { src: imgUrl.sc5, name: '浪客剑心' },
     { src: imgUrl.sc6, name: '全金属狂潮' },
     { src: imgUrl.sc7, name: '蜡笔小新' },
-    { src: imgUrl.sc8, name: '超电磁炮' },
+    { src: sc8, name: '超电磁炮' },
     { src: imgUrl.sc9, name: '飞轮少年' },
     { src: imgUrl.sc10, name: '火影忍者' }
 ];
