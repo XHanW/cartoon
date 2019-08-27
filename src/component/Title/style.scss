@@ -1,0 +1,25 @@
+.title {
+  display: flex;
+  li {
+    flex: 1;
+    padding: 5px auto;
+    width: 100px;
+    height: 30px;
+    list-style: none;
+    border-right: 1px solid #ccc;
+    a {
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 30px;
+      text-decoration: none;
+      color: #333;
+      cursor: pointer;
+      &:hover {
+        color: #004080;
+      }
+    }
+    &:last-child {
+      border-right: 0px;
+    }
+  }
+}

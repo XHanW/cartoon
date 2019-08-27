@@ -1,9 +1,9 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { showImg } from '../../../store/actions';
-import Card from '../../../component/Card/index';
-import Title from '../../../component/TitleContent/Title';
-import TitleContent from '../../../component/TitleContent/TitleContent';
+import Card from '../../../component/Card';
+import Title from '../../../component/Title';
+import TitleContent from '../../../component/TitleContent';
 import { title } from '../../../component/data';
 import ListContent from '../../../component/ListContent';
 import imgUrl from '../../../static/product.json';

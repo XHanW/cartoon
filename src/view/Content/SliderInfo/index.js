@@ -2,7 +2,7 @@ import React from "react";
 import { connect } from 'react-redux';
 import { showImges } from '../../../store/actions';
 
-import Card from '../../../component/Card/index';
+import Card from '../../../component/Card';
 import Img from "../../../component/Img";
 import SliderNav from './SliderNav';
 

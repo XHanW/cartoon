@@ -1,10 +1,10 @@
 import React from 'react';
-import Card from '../../../component/Card/index';
-import Title from '../../../component/TitleContent/Title';
-import Arrows from '../../../component/Arrows/index';
-import TitleContent from '../../../component/TitleContent/TitleContent';
+import Card from '../../../component/Card';
+import Title from '../../../component/Title';
+import Arrows from '../../../component/Arrows';
+import TitleContent from '../../../component/TitleContent';
 import imgUrl from '../../../static/product.json';
-
+// import sc8 from '../../../static/sc8.jpg';
 import { title } from '../../../component/data';
 import './style.scss';
 
