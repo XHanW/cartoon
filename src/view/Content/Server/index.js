@@ -6,15 +6,7 @@ import Title from '../../../component/TitleContent/Title';
 import TitleContent from '../../../component/TitleContent/TitleContent';
 import { title } from '../../../component/data';
 import ListContent from '../../../component/ListContent';
-
-import h1 from '../../../static/h1.jpg';
-import h2 from '../../../static/h2.jpg';
-import h3 from '../../../static/h3.jpg';
-import h4 from '../../../static/h4.jpg';
-import h5 from '../../../static/h5.jpg';
-import h6 from '../../../static/h6.jpg';
-import h7 from '../../../static/h7.jpg';
-import h8 from '../../../static/h8.jpg';
+import imgUrl from '../../../static/product.json';
 
 import './style.scss';
 
@@ -43,7 +35,7 @@ const text = [
         "日套餐购买推荐"
     ]
 ];
-const imgs = [h1, h2, h3, h4, h5, h6, h7, h8];
+const imgs = [imgUrl.h1, imgUrl.h2, imgUrl.h3, imgUrl.h4, imgUrl.h5, imgUrl.h6, imgUrl.h7, imgUrl.h8];
 const html = {
     资料: [
         "年套餐购买最新优惠",

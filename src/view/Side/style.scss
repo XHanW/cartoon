@@ -48,12 +48,25 @@
   top: 50%;
   transform: translateY(-50%);
   transition: transform 1s;
-  img {
-    max-width: 300px;
-    max-height: 200px;
+  .imgbox {
+    overflow: hidden;
+    position: relative;
+    width: 300px;
+    &::after {
+      content: "";
+      display: block;
+      margin-top: 100%;
+    }
+    img {
+      max-width: 300px;
+      max-height: 200px;
+      left: 0;
+      bottom: 0;
+      position: absolute;
+    }
   }
-  a{
-    color:#333;
+  a {
+    color: #333;
     text-decoration: none;
     &:hover {
       color: #004080;

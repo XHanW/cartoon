@@ -3,17 +3,7 @@ import Card from '../../../component/Card/index';
 import Title from '../../../component/TitleContent/Title';
 import Arrows from '../../../component/Arrows/index';
 import TitleContent from '../../../component/TitleContent/TitleContent';
-
-import sc1 from '../../../static/sc1.jpg';
-import sc2 from '../../../static/sc2.jpg';
-import sc3 from '../../../static/sc3.jpg';
-import sc4 from '../../../static/sc4.jpg';
-import sc5 from '../../../static/sc5.jpg';
-import sc6 from '../../../static/sc6.jpg';
-import sc7 from '../../../static/sc7.jpg';
-import sc8 from '../../../static/sc8.jpg';
-import sc9 from '../../../static/sc9.jpg';
-import sc10 from '../../../static/sc10.jpg';
+import imgUrl from '../../../static/product.json';
 
 import { title } from '../../../component/data';
 import './style.scss';
@@ -31,16 +21,16 @@ const text = [
     ]
 ];
 const sliderimg = [
-    { src: sc1, name: '宫崎骏' },
-    { src: sc2, name: '犬夜叉' },
-    { src: sc3, name: '海贼王' },
-    { src: sc4, name: '柯南' },
-    { src: sc5, name: '浪客剑心' },
-    { src: sc6, name: '全金属狂潮' },
-    { src: sc7, name: '蜡笔小新' },
-    { src: sc8, name: '超电磁炮' },
-    { src: sc9, name: '飞轮少年' },
-    { src: sc10, name: '火影忍者' }
+    { src: imgUrl.sc1, name: '宫崎骏' },
+    { src: imgUrl.sc2, name: '犬夜叉' },
+    { src: imgUrl.sc3, name: '海贼王' },
+    { src: imgUrl.sc4, name: '柯南' },
+    { src: imgUrl.sc5, name: '浪客剑心' },
+    { src: imgUrl.sc6, name: '全金属狂潮' },
+    { src: imgUrl.sc7, name: '蜡笔小新' },
+    { src: imgUrl.sc8, name: '超电磁炮' },
+    { src: imgUrl.sc9, name: '飞轮少年' },
+    { src: imgUrl.sc10, name: '火影忍者' }
 ];
 
 class News extends React.Component {

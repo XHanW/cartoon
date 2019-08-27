@@ -1,7 +1,4 @@
-import s1 from '../static/s1.jpg';
-import s2 from '../static/s2.jpg';
-import s3 from '../static/s3.jpg';
-import s4 from '../static/s4.jpg';
+import imgUrl from '../static/product.json';
 
 export const navs = ["首页", "热播动漫", "经典动漫", "动漫相关", "会员业务", "关于"];
 export const menus = {
@@ -87,5 +84,5 @@ export const menus = {
 };
 
 export const contents = [["犬夜叉", "海贼王", "火影忍者", "宫崎骏"], ["经典动漫", "热播动漫", "完结漫画", "温馨治愈"]];
-export const imgs = [s1, s2, s3, s4];
+export const imgs = [imgUrl.s1, imgUrl.s2, imgUrl.s3, imgUrl.s4];
 export const title = { news: ["公告", "动态"], server: ["头像", "资料", "会员功能"] }
